@@ -11,7 +11,7 @@ import java.net.InetAddress;
 public class GeoipDemo {
 
     public static void main(String[] args) {
-        try {
+         try {
             // Path to your MaxMind database file
             File database = new File("/path/to/maxmind-database.mmdb");
             DatabaseReader reader = new DatabaseReader.Builder(database).build();
